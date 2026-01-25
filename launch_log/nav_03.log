@@ -1,0 +1,12 @@
+[INFO] [launch]: All log files can be found below /home/ljhua/.ros/log/2026-01-25-14-08-40-525362-ljhua-ASUS-TUF-Gaming-F15-FX507VV-FX507VV-169520
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rplidar_node-1]: process started with pid [169530]
+[rplidar_node-1] [INFO] [1769321320.591596892] [rplidar_node]: RPLidar running on ROS2 package rplidar_ros. RPLIDAR SDK Version:2.0.0
+[rplidar_node-1] [ERROR] [1769321320.633991485] [rplidar_node]: Error, operation time out. SL_RESULT_OPERATION_TIMEOUT! 
+[ERROR] [rplidar_node-1]: process has died [pid 169530, exit code 255, cmd '/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/rplidar_ros/lib/rplidar_ros/rplidar_node --ros-args -r __node:=rplidar_node --params-file /tmp/launch_params_mbxbhuhl -r /scan:=/rplidar/scan'].
+[INFO] [launch]: All log files can be found below /home/ljhua/.ros/log/2026-01-25-14-11-10-856608-ljhua-ASUS-TUF-Gaming-F15-FX507VV-FX507VV-170730
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rplidar_node-1]: process started with pid [170740]
+[rplidar_node-1] [INFO] [1769321471.013839355] [rplidar_node]: RPLidar running on ROS2 package rplidar_ros. RPLIDAR SDK Version:2.0.0
+[rplidar_node-1] [ERROR] [1769321471.056278610] [rplidar_node]: Error, operation time out. SL_RESULT_OPERATION_TIMEOUT! 
+[ERROR] [rplidar_node-1]: process has died [pid 170740, exit code 255, cmd '/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/rplidar_ros/lib/rplidar_ros/rplidar_node --ros-args -r __node:=rplidar_node --params-file /tmp/launch_params_2odq4vrb -r /scan:=/rplidar/scan'].

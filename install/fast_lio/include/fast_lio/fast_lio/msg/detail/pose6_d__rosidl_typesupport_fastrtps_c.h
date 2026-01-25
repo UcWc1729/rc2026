@@ -1,0 +1,1 @@
+/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h

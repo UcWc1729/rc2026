@@ -1,0 +1,1 @@
+/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__type_support.h

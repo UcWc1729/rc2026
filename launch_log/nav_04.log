@@ -1,0 +1,8 @@
+[INFO] [launch]: All log files can be found below /home/ljhua/.ros/log/2026-01-25-14-08-41-504847-ljhua-ASUS-TUF-Gaming-F15-FX507VV-FX507VV-169542
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ground_segmentation_node-1]: process started with pid [169552]
+[ground_segmentation_node-1] [INFO] [1769321321.635862168] [ground_segmentation]: Segmentation node initialized
+[INFO] [launch]: All log files can be found below /home/ljhua/.ros/log/2026-01-25-14-11-11-836823-ljhua-ASUS-TUF-Gaming-F15-FX507VV-FX507VV-170752
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ground_segmentation_node-1]: process started with pid [170762]
+[ground_segmentation_node-1] [INFO] [1769321472.069688727] [ground_segmentation]: Segmentation node initialized

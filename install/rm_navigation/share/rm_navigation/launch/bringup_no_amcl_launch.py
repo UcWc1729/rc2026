@@ -1,0 +1,1 @@
+/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation/launch/bringup_no_amcl_launch.py

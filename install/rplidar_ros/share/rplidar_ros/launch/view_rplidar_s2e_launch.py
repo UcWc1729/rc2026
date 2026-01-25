@@ -1,0 +1,1 @@
+/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/launch/view_rplidar_s2e_launch.py

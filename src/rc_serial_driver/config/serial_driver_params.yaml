@@ -1,0 +1,10 @@
+serial_driver_node:
+  ros__parameters:
+    port_name: "/dev/ttyUSB0"      # 串口设备路径
+    baudrate: 115200               # 波特率（下位机固定为115200）
+    cmd_vel_topic: "/cmd_vel"      # 速度指令话题
+    max_linear_vel: 1.0            # 最大线速度 (m/s)
+    max_angular_vel: 1.0           # 最大角速度 (rad/s)
+    timeout: 0.1                   # 超时时间 (秒)，超过此时间未收到指令则发送停止指令
+    publish_odom: true             # 是否发布里程计数据
+    odom_topic: "/odom_serial"     # 里程计话题名称

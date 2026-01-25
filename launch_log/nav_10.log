@@ -1,0 +1,8 @@
+[INFO] [launch]: All log files can be found below /home/ljhua/.ros/log/2026-01-25-14-08-47-547352-ljhua-ASUS-TUF-Gaming-F15-FX507VV-FX507VV-169755
+[INFO] [launch]: Default logging verbosity is set to INFO
+[ERROR] [launch]: Caught exception in launch (see debug for traceback): "package 'rc_serial_driver' not found, searching: ['/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/rplidar_ros', '/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/rm_serial_driver', '/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/rm_navigation', '/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/pointcloud_to_laserscan', '/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/fast_lio', '/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/livox_ros_driver2', '/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation_ros', '/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation', '/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/imu_complementary_filter', '/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/icp_localization_ros2', '/opt/ros/humble']"
+[INFO] [launch]: All log files can be found below /home/ljhua/.ros/log/2026-01-25-14-11-18-011151-ljhua-ASUS-TUF-Gaming-F15-FX507VV-FX507VV-170889
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [serial_driver_node-1]: process started with pid [170942]
+[serial_driver_node-1] Failed to open serial port: /dev/ttyUSB0 Error: No such file or directory
+[serial_driver_node-1] [ERROR] [1769321478.493445125] [serial_driver_node]: Failed to open serial port: /dev/ttyUSB0

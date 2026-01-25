@@ -1,0 +1,24 @@
+[INFO] [launch]: All log files can be found below /home/ljhua/.ros/log/2026-01-25-14-08-39-516051-ljhua-ASUS-TUF-Gaming-F15-FX507VV-FX507VV-169493
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [livox_ros_driver2_node-1]: process started with pid [169503]
+[livox_ros_driver2_node-1] [INFO] [1769321319.582471360] [livox_lidar_publisher]: Livox Ros Driver2 Version: 1.0.0
+[livox_ros_driver2_node-1] [INFO] [1769321319.583648801] [livox_lidar_publisher]: Data Source is raw lidar.
+[livox_ros_driver2_node-1] [INFO] [1769321319.583669398] [livox_lidar_publisher]: Config file : /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/launch/../config/MID360_config.json
+[livox_ros_driver2_node-1] LdsLidar *GetInstance
+[livox_ros_driver2_node-1] config lidar type: 8
+[livox_ros_driver2_node-1] successfully parse base config, counts: 1
+[livox_ros_driver2_node-1] bind failed
+[livox_ros_driver2_node-1] Failed to init livox lidar sdk.
+[livox_ros_driver2_node-1] [ERROR] [1769321319.584989855] [livox_lidar_publisher]: Init lds lidar fail!
+[INFO] [launch]: All log files can be found below /home/ljhua/.ros/log/2026-01-25-14-11-09-898896-ljhua-ASUS-TUF-Gaming-F15-FX507VV-FX507VV-170701
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [livox_ros_driver2_node-1]: process started with pid [170713]
+[livox_ros_driver2_node-1] [INFO] [1769321469.977727725] [livox_lidar_publisher]: Livox Ros Driver2 Version: 1.0.0
+[livox_ros_driver2_node-1] [INFO] [1769321469.979333320] [livox_lidar_publisher]: Data Source is raw lidar.
+[livox_ros_driver2_node-1] [INFO] [1769321469.979354066] [livox_lidar_publisher]: Config file : /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/launch/../config/MID360_config.json
+[livox_ros_driver2_node-1] LdsLidar *GetInstance
+[livox_ros_driver2_node-1] config lidar type: 8
+[livox_ros_driver2_node-1] successfully parse base config, counts: 1
+[livox_ros_driver2_node-1] bind failed
+[livox_ros_driver2_node-1] Failed to init livox lidar sdk.
+[livox_ros_driver2_node-1] [ERROR] [1769321469.980927037] [livox_lidar_publisher]: Init lds lidar fail!
