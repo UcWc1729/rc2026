@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan/dummy_pointcloud_publisher" "TARGETS" "dummy_pointcloud_publisher" "DESTINATION" "lib/pointcloud_to_laserscan")

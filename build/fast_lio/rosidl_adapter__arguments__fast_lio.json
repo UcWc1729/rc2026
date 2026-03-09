@@ -1,6 +1,0 @@
-{
-  "package_name": "fast_lio",
-  "non_idl_tuples": [
-    "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio:msg/Pose6D.msg"
-  ]
-}

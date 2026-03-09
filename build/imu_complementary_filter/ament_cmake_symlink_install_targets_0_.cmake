@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/complementary_filter_node" "TARGETS" "complementary_filter_node" "DESTINATION" "lib/imu_complementary_filter")

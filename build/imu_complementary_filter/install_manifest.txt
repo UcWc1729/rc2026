@@ -1,3 +1,0 @@
-/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/imu_complementary_filter/lib/libcomplementary_filter.so
-/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake
-/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport-noconfig.cmake

@@ -1,2 +1,0 @@
-# generated from colcon_core/shell/template/command_prefix.sh.em
-. "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/livox_ros_driver2/share/livox_ros_driver2/package.sh"
