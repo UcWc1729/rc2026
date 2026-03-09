@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

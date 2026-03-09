@@ -1,8 +1,8 @@
-# Install script for directory: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/pointcloud_to_laserscan
+# Install script for directory: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/pointcloud_to_laserscan")
+  set(CMAKE_INSTALL_PREFIX "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

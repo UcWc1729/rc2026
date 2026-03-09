@@ -1,1 +1,1 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/launch/rviz_HAP_launch.py
+/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/launch/rviz_HAP_launch.py

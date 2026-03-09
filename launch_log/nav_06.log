@@ -1,8 +1,0 @@
-[INFO] [launch]: All log files can be found below /home/ljhua/.ros/log/2026-01-25-14-08-43-480490-ljhua-ASUS-TUF-Gaming-F15-FX507VV-FX507VV-169588
-[INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [complementary_filter_node-1]: process started with pid [169598]
-[complementary_filter_node-1] [INFO] [1769321323.540454332] [complementary_filter_gain_node]: Starting ComplementaryFilterROS
-[INFO] [launch]: All log files can be found below /home/ljhua/.ros/log/2026-01-25-14-11-13-889007-ljhua-ASUS-TUF-Gaming-F15-FX507VV-FX507VV-170798
-[INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [complementary_filter_node-1]: process started with pid [170808]
-[complementary_filter_node-1] [INFO] [1769321474.055117446] [complementary_filter_gain_node]: Starting ComplementaryFilterROS

@@ -1,6 +1,7 @@
 /icp_localization:
   ros__parameters:
-    pcd_file_path: "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation/map/test.pcd"
+    # 使用本项目 rm_navigation 中的 test.pcd 作为 ICP 定位的地图
+    pcd_file_path: "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation/map/test.pcd"
     
     icp_localization_ros2:
       range_data_topic: "/cloud_registered_body"

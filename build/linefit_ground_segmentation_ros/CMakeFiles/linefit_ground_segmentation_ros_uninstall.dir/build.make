@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros
 
 # Utility rule file for linefit_ground_segmentation_ros_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/linefit_ground_segmentation_ros_uninstall.dir/compiler_depend
 include CMakeFiles/linefit_ground_segmentation_ros_uninstall.dir/progress.make
 
 CMakeFiles/linefit_ground_segmentation_ros_uninstall:
-	/usr/bin/cmake -P /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 linefit_ground_segmentation_ros_uninstall: CMakeFiles/linefit_ground_segmentation_ros_uninstall
 linefit_ground_segmentation_ros_uninstall: CMakeFiles/linefit_ground_segmentation_ros_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/linefit_ground_segmentation_ros_uninstall.dir/clean:
 .PHONY : CMakeFiles/linefit_ground_segmentation_ros_uninstall.dir/clean
 
 CMakeFiles/linefit_ground_segmentation_ros_uninstall.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/CMakeFiles/linefit_ground_segmentation_ros_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/CMakeFiles/linefit_ground_segmentation_ros_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/linefit_ground_segmentation_ros_uninstall.dir/depend
 

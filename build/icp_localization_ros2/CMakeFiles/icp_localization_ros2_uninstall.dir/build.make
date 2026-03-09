@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2
 
 # Utility rule file for icp_localization_ros2_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/icp_localization_ros2_uninstall.dir/compiler_depend.make
 include CMakeFiles/icp_localization_ros2_uninstall.dir/progress.make
 
 CMakeFiles/icp_localization_ros2_uninstall:
-	/usr/bin/cmake -P /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 icp_localization_ros2_uninstall: CMakeFiles/icp_localization_ros2_uninstall
 icp_localization_ros2_uninstall: CMakeFiles/icp_localization_ros2_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/icp_localization_ros2_uninstall.dir/clean:
 .PHONY : CMakeFiles/icp_localization_ros2_uninstall.dir/clean
 
 CMakeFiles/icp_localization_ros2_uninstall.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/CMakeFiles/icp_localization_ros2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/CMakeFiles/icp_localization_ros2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/icp_localization_ros2_uninstall.dir/depend
 

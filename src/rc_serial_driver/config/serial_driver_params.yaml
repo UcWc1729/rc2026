@@ -1,6 +1,6 @@
 serial_driver_node:
   ros__parameters:
-    port_name: "/dev/ttyUSB0"      # 串口设备路径
+    port_name: "/dev/ttyUSB0"      # 串口设备路径（会自动检测ttyUSB0和ttyUSB1，使用第一个可用的）
     baudrate: 115200               # 波特率（下位机固定为115200）
     cmd_vel_topic: "/cmd_vel"      # 速度指令话题
     max_linear_vel: 1.0            # 最大线速度 (m/s)

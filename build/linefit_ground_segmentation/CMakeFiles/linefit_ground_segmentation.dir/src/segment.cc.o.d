@@ -1,7 +1,7 @@
 CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o: \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/segment.cc \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/segment.cc \
  /usr/include/stdc-predef.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/segment.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/segment.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -51,7 +51,7 @@ CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/bin.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/bin.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

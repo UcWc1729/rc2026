@@ -1,8 +1,8 @@
-# Install script for directory: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/fast_lio__py
+# Install script for directory: /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/fast_lio__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/fast_lio")
+  set(CMAKE_INSTALL_PREFIX "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/fast_lio")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

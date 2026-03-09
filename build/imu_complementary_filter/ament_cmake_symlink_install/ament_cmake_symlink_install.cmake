@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/imu_complementary_filter/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/imu_complementary_filter/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/imu_complementary_filter/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/imu_complementary_filter/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/imu_complementary_filter/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/imu_complementary_filter/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/imu_complementary_filter/${destination}")
+      set(destination "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/imu_complementary_filter/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,67 +311,67 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "complementary_filter_node" "DESTINATION" "lib/imu_complementary_filter")
-include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "include/" "DESTINATION" "include")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" DIRECTORY "include/" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" DIRECTORY "include/" "DESTINATION" "include")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/imu_complementary_filter")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" DIRECTORY "launch" "DESTINATION" "share/imu_complementary_filter")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" DIRECTORY "launch" "DESTINATION" "share/imu_complementary_filter")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/imu_complementary_filter/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/imu_complementary_filter/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/imu_complementary_filter/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/imu_complementary_filter/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/imu_complementary_filter/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/imu_complementary_filter/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/imu_complementary_filter/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/imu_complementary_filter" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/imu_complementary_filter" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/imu_complementary_filter" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/imu_complementary_filter" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/imu_complementary_filter" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/imu_complementary_filter" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/imu_complementary_filter" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/imu_complementary_filter" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/imu_complementary_filter/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/imu_complementary_filter/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/imu_complementary_filter/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/imu_complementary_filter/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/imu_complementary_filter/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/imu_complementary_filter/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/imu_complementary_filter/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/imu_complementary_filter/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/imu_complementary_filter/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/imu_complementary_filter/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/imu_complementary_filter/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/imu_complementary_filter/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/imu_complementary_filter/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/imu_complementary_filter/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/imu_complementary_filter")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/imu_complementary_filter")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/imu_complementary_filter")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/imu_complementary_filter")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/imu_complementary_filter")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/imu_complementary_filter")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/imu_complementary_filter")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/imu_complementary_filter")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/imu_complementary_filter")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/imu_complementary_filter")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/imu_complementary_filter")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/imu_complementary_filter")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/imu_complementary_filter")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/imu_complementary_filter")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/imu_complementary_filter")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/imu_complementary_filter")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/imu_complementary_filter")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/imu_complementary_filter")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/imu_complementary_filter")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/imu_complementary_filter")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_index/share/ament_index/resource_index/packages/imu_complementary_filter" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_index/share/ament_index/resource_index/packages/imu_complementary_filter" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_index/share/ament_index/resource_index/packages/imu_complementary_filter" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_index/share/ament_index/resource_index/packages/imu_complementary_filter" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_core/imu_complementary_filterConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_core/imu_complementary_filterConfig-version.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_core/imu_complementary_filterConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_core/imu_complementary_filterConfig-version.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_core/imu_complementary_filterConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_core/imu_complementary_filterConfig-version.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_core/imu_complementary_filterConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_core/imu_complementary_filterConfig-version.cmake" "DESTINATION" "share/imu_complementary_filter/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter/package.xml" "DESTINATION" "share/imu_complementary_filter")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter/package.xml" "DESTINATION" "share/imu_complementary_filter")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter/package.xml" "DESTINATION" "share/imu_complementary_filter")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter/package.xml" "DESTINATION" "share/imu_complementary_filter")

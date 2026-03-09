@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fastlio_mapping.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/fastlio_mapping.dir/progress.make
 include CMakeFiles/fastlio_mapping.dir/flags.make
 
 CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: CMakeFiles/fastlio_mapping.dir/flags.make
-CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/src/laserMapping.cpp
+CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/src/laserMapping.cpp
 CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: CMakeFiles/fastlio_mapping.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o -MF CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o.d -o CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/src/laserMapping.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o -MF CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o.d -o CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/src/laserMapping.cpp
 
 CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/src/laserMapping.cpp > CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/src/laserMapping.cpp > CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.i
 
 CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/src/laserMapping.cpp -o CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/src/laserMapping.cpp -o CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.s
 
 CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o: CMakeFiles/fastlio_mapping.dir/flags.make
-CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.cpp
+CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.cpp
 CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o: CMakeFiles/fastlio_mapping.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o -MF CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o.d -o CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o -MF CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o.d -o CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.cpp
 
 CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.cpp > CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.cpp > CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.i
 
 CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.cpp -o CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.cpp -o CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.s
 
 CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o: CMakeFiles/fastlio_mapping.dir/flags.make
-CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/src/preprocess.cpp
+CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/src/preprocess.cpp
 CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o: CMakeFiles/fastlio_mapping.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o -MF CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o.d -o CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/src/preprocess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o -MF CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o.d -o CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/src/preprocess.cpp
 
 CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/src/preprocess.cpp > CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/src/preprocess.cpp > CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.i
 
 CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/src/preprocess.cpp -o CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/src/preprocess.cpp -o CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.s
 
 # Object files for target fastlio_mapping
 fastlio_mapping_OBJECTS = \
@@ -150,12 +150,12 @@ fastlio_mapping: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_c
 fastlio_mapping: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_py.so
 fastlio_mapping: /opt/ros/humble/lib/libpcl_ros_tf.a
 fastlio_mapping: /opt/ros/humble/lib/libpcd_to_pointcloud_lib.so
-fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
-fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
-fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
-fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
-fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
-fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
 fastlio_mapping: /opt/ros/humble/lib/libmessage_filters.so
 fastlio_mapping: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 fastlio_mapping: /opt/ros/humble/lib/librmw.so
@@ -463,9 +463,9 @@ fastlio_mapping: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 fastlio_mapping: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 fastlio_mapping: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 fastlio_mapping: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
 fastlio_mapping: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+fastlio_mapping: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
 fastlio_mapping: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 fastlio_mapping: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 fastlio_mapping: /usr/lib/x86_64-linux-gnu/libpython3.10.so
@@ -476,7 +476,7 @@ fastlio_mapping: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.s
 fastlio_mapping: /opt/ros/humble/lib/librosidl_runtime_c.so
 fastlio_mapping: /opt/ros/humble/lib/librcutils.so
 fastlio_mapping: CMakeFiles/fastlio_mapping.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable fastlio_mapping"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable fastlio_mapping"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fastlio_mapping.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -488,6 +488,6 @@ CMakeFiles/fastlio_mapping.dir/clean:
 .PHONY : CMakeFiles/fastlio_mapping.dir/clean
 
 CMakeFiles/fastlio_mapping.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles/fastlio_mapping.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles/fastlio_mapping.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fastlio_mapping.dir/depend
 

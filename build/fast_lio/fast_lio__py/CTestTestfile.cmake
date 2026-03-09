@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/fast_lio__py
-# Build directory: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/fast_lio__py
+# Source directory: /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/fast_lio__py
+# Build directory: /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/fast_lio__py
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

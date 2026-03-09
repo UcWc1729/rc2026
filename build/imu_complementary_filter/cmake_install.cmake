@@ -1,8 +1,8 @@
-# Install script for directory: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter
+# Install script for directory: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/imu_complementary_filter")
+  set(CMAKE_INSTALL_PREFIX "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/imu_complementary_filter")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,7 +53,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcomplementary_filter.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/libcomplementary_filter.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/libcomplementary_filter.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcomplementary_filter.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcomplementary_filter.so")
     file(RPATH_CHANGE
@@ -73,7 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake"
-         "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/CMakeFiles/Export/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake")
+         "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/CMakeFiles/Export/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -82,9 +82,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_complementary_filter/cmake" TYPE FILE FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/CMakeFiles/Export/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_complementary_filter/cmake" TYPE FILE FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/CMakeFiles/Export/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_complementary_filter/cmake" TYPE FILE FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/CMakeFiles/Export/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_complementary_filter/cmake" TYPE FILE FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/CMakeFiles/Export/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport-noconfig.cmake")
   endif()
 endif()
 
@@ -96,5 +96,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/imu_complementary_filter/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/imu_complementary_filter/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

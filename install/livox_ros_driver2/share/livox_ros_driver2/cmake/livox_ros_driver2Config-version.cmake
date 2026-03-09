@@ -1,1 +1,1 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/ament_cmake_core/livox_ros_driver2Config-version.cmake
+/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/ament_cmake_core/livox_ros_driver2Config-version.cmake

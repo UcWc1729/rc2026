@@ -1,7 +1,7 @@
 CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o: \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/lds_lidar.cpp \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/lds_lidar.cpp \
  /usr/include/stdc-predef.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/lds_lidar.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/lds_lidar.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -166,15 +166,15 @@ CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/lds.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/lds.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/semaphore.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/semaphore.h \
  /usr/include/c++/11/condition_variable \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/comm.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/comm.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -212,39 +212,39 @@ CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/lidar_imu_data_queue.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/lidar_imu_data_queue.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/cache_index.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/comm.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/cache_index.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/comm.h \
  /usr/local/include/livox_lidar_api.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/local/include/livox_lidar_def.h \
  /usr/local/include/livox_lidar_def.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/document.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/encodedstream.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/memorystream.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/stream.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/document.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/encodedstream.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/memorystream.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/stream.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/inttypes.h /usr/include/c++/11/cassert \
  /usr/include/assert.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/encodings.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/meta.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/../rapidjson.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/strfunc.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/../stream.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/../rapidjson.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/reader.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/allocators.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/encodings.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/meta.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/../rapidjson.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/strfunc.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/../stream.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/../rapidjson.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/reader.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/allocators.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h \
  /usr/include/c++/11/cstddef \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/../allocators.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/swap.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/strtod.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/../allocators.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/swap.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/strtod.h \
  /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -254,13 +254,13 @@ CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/biginteger.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/diyfp.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/ieee754.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/pow10.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/error/error.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/error/../rapidjson.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/biginteger.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/diyfp.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/ieee754.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/internal/pow10.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/error/error.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/error/../rapidjson.h \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/arpa/inet.h \
@@ -290,7 +290,7 @@ CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/pub_handler.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/pub_handler.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
@@ -302,13 +302,13 @@ CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o: \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/parse_cfg_file/../comm/comm.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/filereadstream.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/stringbuffer.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/call_back/lidar_common_callback.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/call_back/livox_lidar_callback.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/call_back/../lds.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/call_back/../lds_lidar.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/call_back/../comm/comm.h
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/parse_cfg_file/../comm/comm.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/filereadstream.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/3rdparty/rapidjson/stringbuffer.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/call_back/lidar_common_callback.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/call_back/livox_lidar_callback.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/call_back/../lds.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/call_back/../lds_lidar.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/call_back/../comm/comm.h

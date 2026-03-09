@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2
 
 # Utility rule file for livox_interfaces2__cpp.
 
@@ -127,8 +127,8 @@ rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp: /opt/ros/humble/sha
 rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__builder.hpp: rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__builder.hpp
@@ -180,6 +180,6 @@ CMakeFiles/livox_interfaces2__cpp.dir/clean:
 .PHONY : CMakeFiles/livox_interfaces2__cpp.dir/clean
 
 CMakeFiles/livox_interfaces2__cpp.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/livox_interfaces2__cpp.dir/depend
 

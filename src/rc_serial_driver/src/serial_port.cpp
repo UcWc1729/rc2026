@@ -62,12 +62,41 @@ int SerialPort::write(const uint8_t * data, size_t size)
     return -1;
   }
 
+  // 非阻塞模式写入数据（与Serial_test版本一致：写入后flush，不清空）
   ssize_t bytes_written = ::write(fd_, data, size);
-  if (bytes_written < 0) {
-    if (errno != EAGAIN && errno != EWOULDBLOCK) {
-      std::cerr << "Serial write error: " << strerror(errno) << std::endl;
+  
+  // 如果写入失败且是因为缓冲区满（EAGAIN/EWOULDBLOCK）
+  if (bytes_written < 0 && (errno == EAGAIN || errno == EWOULDBLOCK)) {
+    // 清空输出缓冲区，丢弃旧数据（因为我们要发送的是最新数据）
+    tcflush(fd_, TCOFLUSH);
+    
+    // 重试一次写入
+    bytes_written = ::write(fd_, data, size);
+    
+    // 如果还是失败，返回错误
+    if (bytes_written < 0) {
+      return -1;
     }
+  } else if (bytes_written < 0) {
+    // 其他错误，打印日志
+    std::cerr << "Serial write error: " << strerror(errno) << std::endl;
     return -1;
+  }
+
+  // 检查是否完整写入
+  if (static_cast<size_t>(bytes_written) < size) {
+    // 部分写入，尝试写入剩余数据
+    size_t remaining = size - bytes_written;
+    ssize_t ret = ::write(fd_, data + bytes_written, remaining);
+    if (ret > 0) {
+      bytes_written += ret;
+    }
+  }
+
+  // 确保数据立即发送到硬件（与Serial_test版本的flush()一致）
+  // 使用tcdrain等待所有数据发送完成，类似Python的serial.flush()
+  if (bytes_written > 0) {
+    tcdrain(fd_);  // 阻塞等待所有数据发送完成
   }
 
   return static_cast<int>(bytes_written);
@@ -79,6 +108,7 @@ int SerialPort::read(uint8_t * data, size_t size)
     return -1;
   }
 
+  // 非阻塞模式读取数据
   ssize_t bytes_read = ::read(fd_, data, size);
   if (bytes_read < 0) {
     if (errno != EAGAIN && errno != EWOULDBLOCK) {
@@ -159,6 +189,11 @@ bool SerialPort::configure(uint32_t baudrate)
   // 原始输出模式
   tty.c_oflag &= ~OPOST;
 
+  // 禁用输出缓冲（确保数据立即发送，不被缓冲）
+  // 这可以避免数据被内核缓冲，立即发送到下位机
+  tty.c_oflag &= ~ONLCR;  // 不转换换行符
+  tty.c_oflag &= ~OCRNL;  // 不转换回车符
+
   // 读取超时设置
   tty.c_cc[VMIN] = 0;   // 最小读取字符数
   tty.c_cc[VTIME] = 10; // 超时时间（0.1秒）
@@ -171,6 +206,24 @@ bool SerialPort::configure(uint32_t baudrate)
 
   // 清空缓冲区
   tcflush(fd_, TCIOFLUSH);
+
+  // 设置串口缓冲区大小（减小缓冲区，确保数据立即发送）
+  struct serial_struct ser_info;
+  if (ioctl(fd_, TIOCGSERIAL, &ser_info) == 0) {
+    // 设置较小的缓冲区大小（默认通常是4096，改为512或更小）
+    ser_info.xmit_fifo_size = 64;   // 发送缓冲区：64字节（最小）
+    ser_info.flags |= ASYNC_LOW_LATENCY;  // 启用低延迟模式
+    
+    if (ioctl(fd_, TIOCSSERIAL, &ser_info) != 0) {
+      std::cerr << "Warning: Failed to set serial buffer size: " << strerror(errno) << std::endl;
+      // 继续执行，不影响串口使用
+    } else {
+      std::cerr << "Serial buffer size set to: " << ser_info.xmit_fifo_size << " bytes" << std::endl;
+    }
+  } else {
+    std::cerr << "Warning: Failed to get serial info: " << strerror(errno) << std::endl;
+    // 继续执行，不影响串口使用
+  }
 
   return true;
 }

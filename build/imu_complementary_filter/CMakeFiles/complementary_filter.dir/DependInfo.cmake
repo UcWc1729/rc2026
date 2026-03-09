@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter/src/complementary_filter.cpp" "CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o" "gcc" "CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/imu_complementary_filter/src/complementary_filter_ros.cpp" "CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o" "gcc" "CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter/src/complementary_filter.cpp" "CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o" "gcc" "CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/imu_complementary_filter/src/complementary_filter_ros.cpp" "CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o" "gcc" "CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o.d"
   )
 
 # Targets to which this target links.

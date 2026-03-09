@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

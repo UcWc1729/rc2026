@@ -1,1 +1,1 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.bash
+/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.bash

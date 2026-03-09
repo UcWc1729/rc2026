@@ -1,5 +1,5 @@
 CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o: \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/ldq.cpp \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/ldq.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -31,7 +31,7 @@ CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/ldq.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/ldq.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
@@ -71,7 +71,7 @@ CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o: \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/comm.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/comm.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -209,7 +209,7 @@ CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o: \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/lidar_imu_data_queue.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/lidar_imu_data_queue.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/list.tcc /usr/include/c++/11/mutex \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \

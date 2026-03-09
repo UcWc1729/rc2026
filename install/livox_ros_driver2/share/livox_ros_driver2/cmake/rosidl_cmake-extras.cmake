@@ -1,1 +1,1 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/rosidl_cmake/rosidl_cmake-extras.cmake
+/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/rosidl_cmake/rosidl_cmake-extras.cmake

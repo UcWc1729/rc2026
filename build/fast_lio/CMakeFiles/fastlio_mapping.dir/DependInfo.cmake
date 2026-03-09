@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.cpp" "CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o" "gcc" "CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/src/laserMapping.cpp" "CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o" "gcc" "CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/src/preprocess.cpp" "CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o" "gcc" "CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.cpp" "CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o" "gcc" "CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/src/laserMapping.cpp" "CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o" "gcc" "CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/src/preprocess.cpp" "CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o" "gcc" "CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/DependInfo.cmake"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

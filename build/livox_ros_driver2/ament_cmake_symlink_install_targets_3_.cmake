@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/livox_ros_driver2_node" "TARGETS" "livox_ros_driver2_node" "DESTINATION" "lib/livox_ros_driver2")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/livox_ros_driver2_node" "TARGETS" "livox_ros_driver2_node" "DESTINATION" "lib/livox_ros_driver2")

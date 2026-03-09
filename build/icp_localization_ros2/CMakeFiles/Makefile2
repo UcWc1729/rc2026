@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/icp_localization.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/icp_localization_ros2_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/icp_localization_ros2_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_localization_ros2_uninstall.dir/build.make CMakeFiles/icp_localization_ros2_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_localization_ros2_uninstall.dir/build.make CMakeFiles/icp_localization_ros2_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/CMakeFiles --progress-num= "Built target icp_localization_ros2_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/CMakeFiles --progress-num= "Built target icp_localization_ros2_uninstall"
 .PHONY : CMakeFiles/icp_localization_ros2_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/icp_localization_ros2_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/icp_localization_ros2_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/CMakeFiles 0
 .PHONY : CMakeFiles/icp_localization_ros2_uninstall.dir/rule
 
 # Convenience name for target.
@@ -135,14 +135,14 @@ CMakeFiles/icp_localization_ros2_uninstall.dir/clean:
 CMakeFiles/icp_localization.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_localization.dir/build.make CMakeFiles/icp_localization.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_localization.dir/build.make CMakeFiles/icp_localization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target icp_localization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target icp_localization"
 .PHONY : CMakeFiles/icp_localization.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/icp_localization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/icp_localization.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/CMakeFiles 0
 .PHONY : CMakeFiles/icp_localization.dir/rule
 
 # Convenience name for target.

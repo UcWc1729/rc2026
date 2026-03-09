@@ -45,9 +45,9 @@ def generate_launch_description():
                 'port_name': LaunchConfiguration('port_name'),
                 'baudrate': LaunchConfiguration('baudrate'),
                 'cmd_vel_topic': LaunchConfiguration('cmd_vel_topic'),
-                'max_linear_vel': LaunchConfiguration('max_linear_vel'),
-                'max_angular_vel': LaunchConfiguration('max_angular_vel'),
                 'timeout': LaunchConfiguration('timeout'),
+                'publish_odom': True,
+                'odom_topic': '/odom_serial',
             }]
         ),
     ])

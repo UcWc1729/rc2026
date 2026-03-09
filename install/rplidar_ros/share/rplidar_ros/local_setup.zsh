@@ -1,1 +1,1 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/ament_cmake_environment_hooks/local_setup.zsh
+/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/ament_cmake_environment_hooks/local_setup.zsh

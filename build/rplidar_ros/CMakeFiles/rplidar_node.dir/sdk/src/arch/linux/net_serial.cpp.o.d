@@ -1,7 +1,7 @@
 CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o: \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp \
  /usr/include/stdc-predef.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/src/arch/linux/arch_linux.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/src/arch/linux/arch_linux.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -208,10 +208,10 @@ CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o: \
  /usr/include/asm-generic/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/src/arch/linux/timer.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/src/hal/types.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/src/arch/linux/net_serial.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/src/hal/abs_rxtx.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/src/arch/linux/timer.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/src/hal/types.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/src/arch/linux/net_serial.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/src/hal/abs_rxtx.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \

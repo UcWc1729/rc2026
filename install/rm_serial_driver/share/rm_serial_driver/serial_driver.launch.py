@@ -1,1 +1,0 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rc_serial_driver/launch/serial_driver.launch.py

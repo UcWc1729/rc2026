@@ -1,7 +1,7 @@
 CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o: \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.cpp \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.cpp \
  /usr/include/stdc-predef.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/include/ikd-Tree/ikd_Tree.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

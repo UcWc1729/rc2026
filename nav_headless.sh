@@ -12,7 +12,7 @@ echo ">>> source install/setup.bash"
 source install/setup.bash
 
 cmds=(
-  "ros2 launch rm_bringup bringup.launch.py"
+  # "ros2 launch rm_bringup bringup.launch.py"  # 包不存在，已注释
   "ros2 launch livox_ros_driver2 msg_MID360_launch.py"
   "ros2 launch rplidar_ros rplidar_a2m7_launch.py"
   "ros2 launch linefit_ground_segmentation_ros segmentation.launch.py"

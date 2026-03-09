@@ -1,7 +1,7 @@
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o: \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp \
  /usr/include/stdc-predef.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -142,9 +142,9 @@ CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_types.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/abs_rxtx.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/src/hal/types.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/socket.h
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_types.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/abs_rxtx.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/src/hal/types.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/socket.h

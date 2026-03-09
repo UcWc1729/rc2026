@@ -1,1 +1,1 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_core/rm_navigationConfig.cmake
+/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_core/rm_navigationConfig.cmake

@@ -1,0 +1,2 @@
+[console_scripts]
+serial_driver_node = rc_serial_driver.serial_driver_node:main

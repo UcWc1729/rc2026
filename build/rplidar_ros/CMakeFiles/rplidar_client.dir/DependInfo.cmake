@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/src/rplidar_client.cpp" "CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o" "gcc" "CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/src/rplidar_client.cpp" "CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o" "gcc" "CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o.d"
   )
 
 # Targets to which this target links.

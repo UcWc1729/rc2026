@@ -1,0 +1,58 @@
+[0.490s] Invoking command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation
+[0.546s] -- The C compiler identification is GNU 11.4.0
+[0.592s] -- The CXX compiler identification is GNU 11.4.0
+[0.599s] -- Detecting C compiler ABI info
+[0.664s] -- Detecting C compiler ABI info - done
+[0.673s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.674s] -- Detecting C compile features
+[0.674s] -- Detecting C compile features - done
+[0.678s] -- Detecting CXX compiler ABI info
+[0.762s] -- Detecting CXX compiler ABI info - done
+[0.767s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.768s] -- Detecting CXX compile features
+[0.768s] -- Detecting CXX compile features - done
+[0.769s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.296s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.342s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.363s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.422s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.422s] -- Added test 'lint_cmake' to check CMake code style
+[1.422s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.423s] -- Added test 'xmllint' to check XML markup files
+[1.424s] -- Configuring done
+[1.425s] -- Generating done
+[1.426s] -- Build files have been written to: /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation
+[1.429s] Invoked command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation
+[1.431s] Invoking command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation -- -j20 -l20
+[1.455s] Invoked command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation -- -j20 -l20
+[1.465s] Invoking command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation
+[1.471s] -- Install configuration: ""
+[1.472s] -- Execute custom install script
+[1.473s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/params/mapper_params_online_async.yaml
+[1.481s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/params/nav2_params.yaml
+[1.490s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/launch/bringup_launch.py
+[1.497s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/launch/bringup_no_amcl_launch.py
+[1.506s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/launch/localization_launch.py
+[1.515s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/launch/navigation_launch.py
+[1.521s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/launch/online_async_launch.py
+[1.526s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/launch/rviz_launch.py
+[1.534s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/launch/slam_launch.py
+[1.540s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/map/map_01.pgm
+[1.545s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/map/map_01.yaml
+[1.552s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/map/test.pcd
+[1.558s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/ament_index/resource_index/package_run_dependencies/rm_navigation
+[1.563s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/ament_index/resource_index/parent_prefix_path/rm_navigation
+[1.569s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/environment/ament_prefix_path.sh
+[1.579s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/environment/ament_prefix_path.dsv
+[1.588s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/environment/path.sh
+[1.595s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/environment/path.dsv
+[1.600s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/local_setup.bash
+[1.606s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/local_setup.sh
+[1.614s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/local_setup.zsh
+[1.619s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/local_setup.dsv
+[1.625s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/package.dsv
+[1.630s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/ament_index/resource_index/packages/rm_navigation
+[1.636s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/cmake/rm_navigationConfig.cmake
+[1.644s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/cmake/rm_navigationConfig-version.cmake
+[1.650s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/share/rm_navigation/package.xml
+[1.657s] Invoked command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation

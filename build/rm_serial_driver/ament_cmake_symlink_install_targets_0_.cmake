@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_serial_driver/libserial_port.so" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_serial_driver/serial_driver_node" "TARGETS" "serial_port" "serial_driver_node" "DESTINATION" "lib/rm_serial_driver")

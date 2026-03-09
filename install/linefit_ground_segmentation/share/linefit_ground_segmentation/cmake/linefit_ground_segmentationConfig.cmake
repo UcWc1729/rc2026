@@ -1,1 +1,1 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation/ament_cmake_core/linefit_ground_segmentationConfig.cmake
+/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation/ament_cmake_core/linefit_ground_segmentationConfig.cmake

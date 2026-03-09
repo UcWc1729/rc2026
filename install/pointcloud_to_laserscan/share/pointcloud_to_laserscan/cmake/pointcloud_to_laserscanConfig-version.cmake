@@ -1,1 +1,1 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan/ament_cmake_core/pointcloud_to_laserscanConfig-version.cmake
+/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan/ament_cmake_core/pointcloud_to_laserscanConfig-version.cmake

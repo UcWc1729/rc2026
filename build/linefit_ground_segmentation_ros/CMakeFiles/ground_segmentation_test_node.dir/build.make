@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ground_segmentation_test_node.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/ground_segmentation_test_node.dir/progress.make
 include CMakeFiles/ground_segmentation_test_node.dir/flags.make
 
 CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o: CMakeFiles/ground_segmentation_test_node.dir/flags.make
-CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_test_node.cc
+CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_test_node.cc
 CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o: CMakeFiles/ground_segmentation_test_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o -MF CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o.d -o CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_test_node.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o -MF CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o.d -o CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_test_node.cc
 
 CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_test_node.cc > CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_test_node.cc > CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.i
 
 CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_test_node.cc -o CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_test_node.cc -o CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.s
 
 # Object files for target ground_segmentation_test_node
 ground_segmentation_test_node_OBJECTS = \
@@ -186,7 +186,7 @@ ground_segmentation_test_node: /usr/lib/libOpenNI.so
 ground_segmentation_test_node: /usr/lib/x86_64-linux-gnu/libOpenNI2.so
 ground_segmentation_test_node: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 ground_segmentation_test_node: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
-ground_segmentation_test_node: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation/lib/liblinefit_ground_segmentation.so
+ground_segmentation_test_node: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation/lib/liblinefit_ground_segmentation.so
 ground_segmentation_test_node: /opt/ros/humble/lib/libtf2_ros.so
 ground_segmentation_test_node: /opt/ros/humble/lib/libmessage_filters.so
 ground_segmentation_test_node: /opt/ros/humble/lib/librclcpp_action.so
@@ -374,7 +374,7 @@ ground_segmentation_test_node: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1
 ground_segmentation_test_node: /usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.74.0
 ground_segmentation_test_node: /usr/lib/x86_64-linux-gnu/libqhull_r.so.8.0.2
 ground_segmentation_test_node: CMakeFiles/ground_segmentation_test_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ground_segmentation_test_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ground_segmentation_test_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ground_segmentation_test_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -386,6 +386,6 @@ CMakeFiles/ground_segmentation_test_node.dir/clean:
 .PHONY : CMakeFiles/ground_segmentation_test_node.dir/clean
 
 CMakeFiles/ground_segmentation_test_node.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/CMakeFiles/ground_segmentation_test_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/CMakeFiles/ground_segmentation_test_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ground_segmentation_test_node.dir/depend
 

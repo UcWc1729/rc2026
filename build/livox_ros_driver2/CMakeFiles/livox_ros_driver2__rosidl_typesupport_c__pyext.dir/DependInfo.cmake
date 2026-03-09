@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c" "CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o" "gcc" "CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c" "CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o" "gcc" "CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/DependInfo.cmake"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/DependInfo.cmake"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/DependInfo.cmake"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/DependInfo.cmake"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/DependInfo.cmake"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

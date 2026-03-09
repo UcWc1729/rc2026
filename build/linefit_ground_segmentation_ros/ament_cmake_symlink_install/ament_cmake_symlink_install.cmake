@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation_ros/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation_ros/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation_ros/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation_ros/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation_ros/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation_ros/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation_ros/${destination}")
+      set(destination "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation_ros/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,55 +311,55 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "ground_segmentation_node" "ground_segmentation_test_node" "DESTINATION" "lib/linefit_ground_segmentation_ros")
-include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/linefit_ground_segmentation_ros")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" DIRECTORY "launch" "DESTINATION" "share/linefit_ground_segmentation_ros")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" DIRECTORY "launch" "DESTINATION" "share/linefit_ground_segmentation_ros")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/linefit_ground_segmentation_ros")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/linefit_ground_segmentation_ros")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/linefit_ground_segmentation_ros")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/linefit_ground_segmentation_ros")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/linefit_ground_segmentation_ros")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/linefit_ground_segmentation_ros")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/linefit_ground_segmentation_ros")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/linefit_ground_segmentation_ros")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/linefit_ground_segmentation_ros")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/linefit_ground_segmentation_ros")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/linefit_ground_segmentation_ros")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/linefit_ground_segmentation_ros")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/linefit_ground_segmentation_ros")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_index/share/ament_index/resource_index/packages/linefit_ground_segmentation_ros" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_index/share/ament_index/resource_index/packages/linefit_ground_segmentation_ros" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_index/share/ament_index/resource_index/packages/linefit_ground_segmentation_ros" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_index/share/ament_index/resource_index/packages/linefit_ground_segmentation_ros" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/linefit_ground_segmentation_ros/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/linefit_ground_segmentation_ros/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/linefit_ground_segmentation_ros/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/linefit_ground_segmentation_ros/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_core/linefit_ground_segmentation_rosConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_core/linefit_ground_segmentation_rosConfig-version.cmake" "DESTINATION" "share/linefit_ground_segmentation_ros/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_core/linefit_ground_segmentation_rosConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/linefit_ground_segmentation_ros/ament_cmake_core/linefit_ground_segmentation_rosConfig-version.cmake" "DESTINATION" "share/linefit_ground_segmentation_ros/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_core/linefit_ground_segmentation_rosConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_core/linefit_ground_segmentation_rosConfig-version.cmake" "DESTINATION" "share/linefit_ground_segmentation_ros/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_core/linefit_ground_segmentation_rosConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/linefit_ground_segmentation_ros/ament_cmake_core/linefit_ground_segmentation_rosConfig-version.cmake" "DESTINATION" "share/linefit_ground_segmentation_ros/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/package.xml" "DESTINATION" "share/linefit_ground_segmentation_ros")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/package.xml" "DESTINATION" "share/linefit_ground_segmentation_ros")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/package.xml" "DESTINATION" "share/linefit_ground_segmentation_ros")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/package.xml" "DESTINATION" "share/linefit_ground_segmentation_ros")

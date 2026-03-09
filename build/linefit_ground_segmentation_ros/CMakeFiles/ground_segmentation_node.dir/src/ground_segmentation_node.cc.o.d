@@ -1,5 +1,5 @@
 CMakeFiles/ground_segmentation_node.dir/src/ground_segmentation_node.cc.o: \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_node.cc \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_node.cc \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -2145,11 +2145,11 @@ CMakeFiles/ground_segmentation_node.dir/src/ground_segmentation_node.cc.o: \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation/include/ground_segmentation/segment.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation/include/ground_segmentation/bin.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation/include/ground_segmentation/segment.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation/include/ground_segmentation/bin.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h \
  /usr/include/pcl-1.12/pcl/visualization/pcl_visualizer.h \
  /usr/include/pcl-1.12/pcl/TextureMesh.h \
  /usr/include/pcl-1.12/pcl/visualization/common/actor_map.h \

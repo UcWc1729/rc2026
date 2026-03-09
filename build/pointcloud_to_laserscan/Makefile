@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/pointcloud_to_laserscan
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan/CMakeFiles /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan/CMakeFiles /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

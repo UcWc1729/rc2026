@@ -1,1 +1,1 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_generator_py/fast_lio/msg/_pose6_d.py
+/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_generator_py/fast_lio/msg/_pose6_d.py

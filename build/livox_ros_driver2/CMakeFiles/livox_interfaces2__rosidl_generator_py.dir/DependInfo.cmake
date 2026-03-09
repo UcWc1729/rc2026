@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c" "CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o" "gcc" "CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c" "CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o" "gcc" "CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c" "CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o" "gcc" "CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c" "CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o" "gcc" "CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/DependInfo.cmake"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/DependInfo.cmake"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/DependInfo.cmake"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

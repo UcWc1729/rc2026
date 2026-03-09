@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/pointcloud_to_laserscan
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dummy_pointcloud_publisher.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/dummy_pointcloud_publisher.dir/progress.make
 include CMakeFiles/dummy_pointcloud_publisher.dir/flags.make
 
 CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o: CMakeFiles/dummy_pointcloud_publisher.dir/flags.make
-CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/pointcloud_to_laserscan/src/dummy_pointcloud_publisher.cpp
+CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan/src/dummy_pointcloud_publisher.cpp
 CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o: CMakeFiles/dummy_pointcloud_publisher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o -MF CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o.d -o CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/pointcloud_to_laserscan/src/dummy_pointcloud_publisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o -MF CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o.d -o CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan/src/dummy_pointcloud_publisher.cpp
 
 CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/pointcloud_to_laserscan/src/dummy_pointcloud_publisher.cpp > CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan/src/dummy_pointcloud_publisher.cpp > CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.i
 
 CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/pointcloud_to_laserscan/src/dummy_pointcloud_publisher.cpp -o CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan/src/dummy_pointcloud_publisher.cpp -o CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.s
 
 # Object files for target dummy_pointcloud_publisher
 dummy_pointcloud_publisher_OBJECTS = \
@@ -254,7 +254,7 @@ dummy_pointcloud_publisher: /opt/ros/humble/lib/librosidl_runtime_c.so
 dummy_pointcloud_publisher: /opt/ros/humble/lib/librcpputils.so
 dummy_pointcloud_publisher: /opt/ros/humble/lib/librcutils.so
 dummy_pointcloud_publisher: CMakeFiles/dummy_pointcloud_publisher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable dummy_pointcloud_publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable dummy_pointcloud_publisher"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dummy_pointcloud_publisher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -266,6 +266,6 @@ CMakeFiles/dummy_pointcloud_publisher.dir/clean:
 .PHONY : CMakeFiles/dummy_pointcloud_publisher.dir/clean
 
 CMakeFiles/dummy_pointcloud_publisher.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/pointcloud_to_laserscan /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/pointcloud_to_laserscan /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/pointcloud_to_laserscan/CMakeFiles/dummy_pointcloud_publisher.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan/CMakeFiles/dummy_pointcloud_publisher.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dummy_pointcloud_publisher.dir/depend
 

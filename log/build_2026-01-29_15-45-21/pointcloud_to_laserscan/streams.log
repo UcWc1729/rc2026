@@ -1,0 +1,101 @@
+[0.018s] Invoking command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan
+[0.505s] -- The C compiler identification is GNU 11.4.0
+[0.505s] -- The CXX compiler identification is GNU 11.4.0
+[0.505s] -- Detecting C compiler ABI info
+[0.505s] -- Detecting C compiler ABI info - done
+[0.505s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.505s] -- Detecting C compile features
+[0.505s] -- Detecting C compile features - done
+[0.505s] -- Detecting CXX compiler ABI info
+[0.505s] -- Detecting CXX compiler ABI info - done
+[0.505s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.506s] -- Detecting CXX compile features
+[0.506s] -- Detecting CXX compile features - done
+[0.506s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.771s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.818s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.934s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.937s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.943s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.950s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.989s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.991s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.046s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.080s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.110s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.117s] -- Looking for pthread.h
+[1.165s] -- Looking for pthread.h - found
+[1.165s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.221s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.222s] -- Found Threads: TRUE  
+[1.421s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.430s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/pointcloud_to_laserscan` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.435s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.435s] -- Configured cppcheck include dirs: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan/include
+[1.435s] -- Configured cppcheck exclude dirs and/or files: 
+[1.437s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.437s] -- Configured cpplint exclude dirs and/or files: 
+[1.438s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.439s] -- Added test 'lint_cmake' to check CMake code style
+[1.439s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.440s] -- Added test 'uncrustify' to check C / C++ code style
+[1.440s] -- Configured uncrustify additional arguments: 
+[1.440s] -- Added test 'xmllint' to check XML markup files
+[1.445s] -- Configuring done
+[1.476s] -- Generating done
+[1.483s] -- Build files have been written to: /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan
+[1.490s] Invoked command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan
+[1.492s] Invoking command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan -- -j20 -l20
+[1.523s] [ 20%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[1.523s] [ 20%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[1.524s] [ 30%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o[0m
+[4.726s] [ 40%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[4.902s] [ 40%] Built target pointcloud_to_laserscan_node
+[6.586s] [ 50%] [32m[1mLinking CXX executable laserscan_to_pointcloud_node[0m
+[6.910s] [ 50%] Built target laserscan_to_pointcloud_node
+[18.899s] [ 60%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[19.105s] [ 60%] Built target laserscan_to_pointcloud
+[19.127s] [ 70%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[29.809s] [ 80%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[29.952s] [ 80%] Built target pointcloud_to_laserscan
+[29.973s] [ 90%] [32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o[0m
+[33.463s] [100%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[33.569s] [100%] Built target dummy_pointcloud_publisher
+[33.577s] Invoked command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan -- -j20 -l20
+[33.578s] Invoking command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan
+[33.585s] -- Install configuration: ""
+[33.586s] -- Execute custom install script
+[33.586s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[33.591s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[33.597s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[33.603s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[33.609s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[33.615s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[33.621s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[33.627s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[33.634s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[33.641s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[33.647s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/pointcloud_to_laserscan_launch.py
+[33.654s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[33.663s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[33.669s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[33.677s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[33.685s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[33.691s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[33.697s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[33.702s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[33.708s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[33.715s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[33.721s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[33.727s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[33.735s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[33.741s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[33.747s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[33.753s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.758s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.764s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[33.770s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[33.776s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[33.784s] -- Symlinking: /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[33.792s] Invoked command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/pointcloud_to_laserscan

@@ -1,1 +1,1 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py

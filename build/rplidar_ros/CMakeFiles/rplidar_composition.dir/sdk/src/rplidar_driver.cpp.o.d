@@ -1,8 +1,8 @@
 CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o: \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/rplidar_driver.cpp \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/rplidar_driver.cpp \
  /usr/include/stdc-predef.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sdkcommon.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/arch_linux.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sdkcommon.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/arch_linux.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -209,22 +209,22 @@ CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o: \
  /usr/include/asm-generic/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/timer.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/src/hal/types.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/types.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/assert.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/rplidar.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/timer.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/src/hal/types.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/types.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/assert.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/rplidar.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/rplidar_protocol.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_types.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/rplidar_cmd.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/rplidar_driver.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/rplidar_protocol.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_types.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/rplidar_cmd.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/rplidar_driver.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/node_handle.h \
@@ -234,13 +234,13 @@ CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/util.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/abs_rxtx.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/thread.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/locker.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/socket.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/event.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_crc.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/util.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/abs_rxtx.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/thread.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/locker.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/socket.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/event.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_crc.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \

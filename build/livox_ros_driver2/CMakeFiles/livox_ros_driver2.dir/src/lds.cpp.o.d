@@ -1,5 +1,5 @@
 CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o: \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/lds.cpp \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/lds.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/math.h \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -148,11 +148,11 @@ CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o: \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/lds.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/lds.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/semaphore.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/semaphore.h \
  /usr/include/c++/11/mutex /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -202,7 +202,7 @@ CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o: \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/ext/concurrence.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/comm.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/comm.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/iostream \
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/bits/ios_base.h \
@@ -226,9 +226,9 @@ CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/lidar_imu_data_queue.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/lidar_imu_data_queue.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/cache_index.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/comm.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/src/comm/ldq.h
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/cache_index.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/comm.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/src/comm/ldq.h

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio
 
 # Utility rule file for ament_cmake_python_build_fast_lio_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_fast_lio_egg.dir/compiler_depend.mak
 include CMakeFiles/ament_cmake_python_build_fast_lio_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_fast_lio_egg:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_python/fast_lio && /usr/bin/python3 setup.py egg_info
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_python/fast_lio && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_fast_lio_egg: CMakeFiles/ament_cmake_python_build_fast_lio_egg
 ament_cmake_python_build_fast_lio_egg: CMakeFiles/ament_cmake_python_build_fast_lio_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_fast_lio_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_fast_lio_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_fast_lio_egg.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles/ament_cmake_python_build_fast_lio_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles/ament_cmake_python_build_fast_lio_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_fast_lio_egg.dir/depend
 

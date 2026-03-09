@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fast_lio__rosidl_generator_py.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/fast_lio__rosidl_generator_py.dir/flags.make
 CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o: CMakeFiles/fast_lio__rosidl_generator_py.dir/flags.make
 CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o: rosidl_generator_py/fast_lio/msg/_pose6_d_s.c
 CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o: CMakeFiles/fast_lio__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o -MF CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o.d -o CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o -MF CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o.d -o CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c
 
 CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c > CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c > CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.i
 
 CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c -o CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c -o CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.s
 
 # Object files for target fast_lio__rosidl_generator_py
 fast_lio__rosidl_generator_py_OBJECTS = \
@@ -98,7 +98,7 @@ rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so: libfast_lio__r
 rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so: CMakeFiles/fast_lio__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fast_lio__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/fast_lio__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/fast_lio__rosidl_generator_py.dir/clean
 
 CMakeFiles/fast_lio__rosidl_generator_py.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles/fast_lio__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles/fast_lio__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fast_lio__rosidl_generator_py.dir/depend
 

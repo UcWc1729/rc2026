@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating rc_keyboard_control.egg-info
+writing rc_keyboard_control.egg-info/PKG-INFO
+writing dependency_links to rc_keyboard_control.egg-info/dependency_links.txt
+writing entry points to rc_keyboard_control.egg-info/entry_points.txt
+writing requirements to rc_keyboard_control.egg-info/requires.txt
+writing top-level names to rc_keyboard_control.egg-info/top_level.txt
+writing manifest file 'rc_keyboard_control.egg-info/SOURCES.txt'
+reading manifest file 'rc_keyboard_control.egg-info/SOURCES.txt'
+writing manifest file 'rc_keyboard_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_keyboard_control/lib/python3.10/site-packages/rc-keyboard-control.egg-link (link to .)
+Installing keyboard_control_node script to /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_keyboard_control/lib/rc_keyboard_control
+
+Installed /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rc_keyboard_control
+running symlink_data
+creating /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_keyboard_control/share/ament_index
+creating /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_keyboard_control/share/ament_index/resource_index
+creating /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_keyboard_control/share/ament_index/resource_index/packages
+symbolically linking /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rc_keyboard_control/resource/rc_keyboard_control -> /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_keyboard_control/share/ament_index/resource_index/packages
+symbolically linking /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rc_keyboard_control/package.xml -> /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_keyboard_control/share/rc_keyboard_control
+creating /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_keyboard_control/share/rc_keyboard_control/launch
+symbolically linking /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rc_keyboard_control/launch/keyboard_control.launch.py -> /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_keyboard_control/share/rc_keyboard_control/launch

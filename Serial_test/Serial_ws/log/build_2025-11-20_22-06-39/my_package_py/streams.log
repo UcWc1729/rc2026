@@ -1,0 +1,57 @@
+[0.408s] Invoking command in '/home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/src/my_package_py': PYTHONPATH=/home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package_py build --build-base /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build install --record /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/install.log --single-version-externally-managed install_data
+[0.565s] running egg_info
+[0.565s] creating ../../build/my_package_py/my_package_py.egg-info
+[0.565s] writing ../../build/my_package_py/my_package_py.egg-info/PKG-INFO
+[0.565s] writing dependency_links to ../../build/my_package_py/my_package_py.egg-info/dependency_links.txt
+[0.566s] writing entry points to ../../build/my_package_py/my_package_py.egg-info/entry_points.txt
+[0.566s] writing requirements to ../../build/my_package_py/my_package_py.egg-info/requires.txt
+[0.566s] writing top-level names to ../../build/my_package_py/my_package_py.egg-info/top_level.txt
+[0.566s] writing manifest file '../../build/my_package_py/my_package_py.egg-info/SOURCES.txt'
+[0.567s] reading manifest file '../../build/my_package_py/my_package_py.egg-info/SOURCES.txt'
+[0.567s] writing manifest file '../../build/my_package_py/my_package_py.egg-info/SOURCES.txt'
+[0.567s] running build
+[0.567s] running build_py
+[0.567s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build
+[0.567s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib
+[0.567s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/nodes
+[0.567s] copying nodes/__init__.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/nodes
+[0.568s] copying nodes/serial_bridge.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/nodes
+[0.568s] copying nodes/motor_controller_node.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/nodes
+[0.568s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/my_package_py
+[0.568s] copying my_package_py/__init__.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/my_package_py
+[0.568s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/config
+[0.568s] copying config/__init__.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/config
+[0.568s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/launch
+[0.568s] copying launch/motor_control.launch.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/launch
+[0.568s] copying launch/__init__.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/launch
+[0.568s] running install
+[0.568s] running install_lib
+[0.569s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/nodes
+[0.569s] copying /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/nodes/__init__.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/nodes
+[0.569s] copying /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/nodes/serial_bridge.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/nodes
+[0.569s] copying /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/nodes/motor_controller_node.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/nodes
+[0.569s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/my_package_py
+[0.569s] copying /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/my_package_py/__init__.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/my_package_py
+[0.569s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/config
+[0.569s] copying /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/config/__init__.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/config
+[0.569s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/launch
+[0.569s] copying /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/launch/motor_control.launch.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/launch
+[0.569s] copying /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build/lib/launch/__init__.py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/launch
+[0.570s] byte-compiling /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/nodes/__init__.py to __init__.cpython-310.pyc
+[0.570s] byte-compiling /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/nodes/serial_bridge.py to serial_bridge.cpython-310.pyc
+[0.570s] byte-compiling /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/nodes/motor_controller_node.py to motor_controller_node.cpython-310.pyc
+[0.570s] byte-compiling /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/my_package_py/__init__.py to __init__.cpython-310.pyc
+[0.570s] byte-compiling /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/config/__init__.py to __init__.cpython-310.pyc
+[0.570s] byte-compiling /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/launch/motor_control.launch.py to motor_control.launch.cpython-310.pyc
+[0.570s] byte-compiling /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/launch/__init__.py to __init__.cpython-310.pyc
+[0.570s] running install_data
+[0.570s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/share/ament_index
+[0.571s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/share/ament_index/resource_index
+[0.571s] creating /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/share/ament_index/resource_index/packages
+[0.571s] copying resource/my_package_py -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/share/ament_index/resource_index/packages
+[0.571s] copying package.xml -> /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/share/my_package_py
+[0.571s] running install_egg_info
+[0.572s] Copying ../../build/my_package_py/my_package_py.egg-info to /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages/my_package_py-0.0.0-py3.10.egg-info
+[0.572s] running install_scripts
+[0.587s] writing list of installed files to '/home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/install.log'
+[0.620s] Invoked command in '/home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/src/my_package_py' returned '0': PYTHONPATH=/home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/install/my_package_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package_py build --build-base /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/build install --record /home/changes/2026ROBOCON/Task/Serial_test/Serial_ws/build/my_package_py/install.log --single-version-externally-managed install_data

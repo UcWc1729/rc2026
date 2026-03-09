@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/fast_lio/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/fast_lio/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/fast_lio/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/fast_lio/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/fast_lio/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/fast_lio/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/fast_lio/${destination}")
+      set(destination "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/fast_lio/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,125 +310,125 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/fast_lio" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/fast_lio" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/fast_lio" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/fast_lio" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_generator_c/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_generator_c/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.h")
+# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_generator_c/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_generator_c/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/fast_lio/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/fast_lio/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/fast_lio/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/fast_lio/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/fast_lio/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/fast_lio/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/fast_lio/environment")
 
-# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_typesupport_fastrtps_c/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_typesupport_fastrtps_c/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_typesupport_fastrtps_c/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_typesupport_fastrtps_c/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_generator_cpp/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_generator_cpp/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_generator_cpp/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_generator_cpp/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.hpp")
 
-# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_typesupport_fastrtps_cpp/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_typesupport_fastrtps_cpp/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_typesupport_fastrtps_cpp/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_typesupport_fastrtps_cpp/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_typesupport_introspection_c/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_typesupport_introspection_c/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.h")
+# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_typesupport_introspection_c/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_typesupport_introspection_c/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.h")
 
-# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_typesupport_introspection_cpp/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_typesupport_introspection_cpp/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_typesupport_introspection_cpp/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_typesupport_introspection_cpp/fast_lio/" "DESTINATION" "include/fast_lio/fast_lio" "PATTERN" "*.hpp")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/fast_lio/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/fast_lio/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/fast_lio/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/fast_lio/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/fast_lio/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/fast_lio/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/fast_lio/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/fast_lio/environment")
 
-# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_python/fast_lio/fast_lio.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_python/fast_lio/fast_lio.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info")
+# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_python/fast_lio/fast_lio.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_python/fast_lio/fast_lio.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_generator_py/fast_lio/" "DESTINATION" "local/lib/python3.10/dist-packages/fast_lio" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_generator_py/fast_lio/" "DESTINATION" "local/lib/python3.10/dist-packages/fast_lio" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_generator_py/fast_lio/" "DESTINATION" "local/lib/python3.10/dist-packages/fast_lio" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" DIRECTORY "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_generator_py/fast_lio/" "DESTINATION" "local/lib/python3.10/dist-packages/fast_lio" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install("TARGETS" "fast_lio__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/fast_lio")
-include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "fast_lio__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/fast_lio")
-include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "fast_lio__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/fast_lio")
-include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_adapter/fast_lio/msg/Pose6D.idl" "DESTINATION" "share/fast_lio/msg")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_adapter/fast_lio/msg/Pose6D.idl" "DESTINATION" "share/fast_lio/msg")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_adapter/fast_lio/msg/Pose6D.idl" "DESTINATION" "share/fast_lio/msg")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_adapter/fast_lio/msg/Pose6D.idl" "DESTINATION" "share/fast_lio/msg")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/msg/Pose6D.msg" "DESTINATION" "share/fast_lio/msg")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/msg/Pose6D.msg" "DESTINATION" "share/fast_lio/msg")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/msg/Pose6D.msg" "DESTINATION" "share/fast_lio/msg")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/msg/Pose6D.msg" "DESTINATION" "share/fast_lio/msg")
 
 # install("TARGETS" "fastlio_mapping" "DESTINATION" "lib/fast_lio")
-include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "config" "launch" "rviz" "DESTINATION" "share/fast_lio")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" DIRECTORY "config" "launch" "rviz" "DESTINATION" "share/fast_lio")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" DIRECTORY "config" "launch" "rviz" "DESTINATION" "share/fast_lio")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fast_lio" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fast_lio" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fast_lio" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fast_lio" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/fast_lio" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/fast_lio" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/fast_lio" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/fast_lio" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/fast_lio/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/fast_lio/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/fast_lio/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/fast_lio/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/fast_lio/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/fast_lio/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/fast_lio/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/fast_lio/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/fast_lio/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/fast_lio/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/fast_lio/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/fast_lio/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/fast_lio/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/fast_lio/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/fast_lio")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/fast_lio")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/fast_lio")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/fast_lio")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/fast_lio")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/fast_lio")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/fast_lio")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/fast_lio")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/fast_lio")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/fast_lio")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/fast_lio")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/fast_lio")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/fast_lio")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/fast_lio")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/fast_lio")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/fast_lio")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/fast_lio")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/fast_lio")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/fast_lio")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/fast_lio")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/packages/fast_lio" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/packages/fast_lio" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/packages/fast_lio" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_index/share/ament_index/resource_index/packages/fast_lio" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/fast_lio/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_core/fast_lioConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_core/fast_lioConfig-version.cmake" "DESTINATION" "share/fast_lio/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_core/fast_lioConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_core/fast_lioConfig-version.cmake" "DESTINATION" "share/fast_lio/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_core/fast_lioConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_core/fast_lioConfig-version.cmake" "DESTINATION" "share/fast_lio/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_core/fast_lioConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_core/fast_lioConfig-version.cmake" "DESTINATION" "share/fast_lio/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/package.xml" "DESTINATION" "share/fast_lio")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/package.xml" "DESTINATION" "share/fast_lio")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/package.xml" "DESTINATION" "share/fast_lio")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/package.xml" "DESTINATION" "share/fast_lio")

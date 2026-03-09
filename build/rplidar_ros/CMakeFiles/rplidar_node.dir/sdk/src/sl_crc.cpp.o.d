@@ -1,10 +1,10 @@
 CMakeFiles/rplidar_node.dir/sdk/src/sl_crc.cpp.o: \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_crc.cpp \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_crc.cpp \
  /usr/include/stdc-predef.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_crc.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/./sdk/include/sl_types.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_crc.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/./sdk/include/sl_types.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

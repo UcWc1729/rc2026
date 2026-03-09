@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2
 
 # Utility rule file for ament_cmake_python_symlink_livox_ros_driver2.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2.dir/compiler_dep
 include CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2:
-	/usr/bin/cmake -E create_symlink /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/ament_cmake_python/livox_ros_driver2/livox_ros_driver2
+	/usr/bin/cmake -E create_symlink /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/ament_cmake_python/livox_ros_driver2/livox_ros_driver2
 
 ament_cmake_python_symlink_livox_ros_driver2: CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2
 ament_cmake_python_symlink_livox_ros_driver2: CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2.dir/depend
 

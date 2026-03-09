@@ -1,8 +1,8 @@
-# Install script for directory: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation
+# Install script for directory: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/rm_navigation")
+  set(CMAKE_INSTALL_PREFIX "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

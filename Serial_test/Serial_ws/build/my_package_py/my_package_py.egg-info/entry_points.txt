@@ -1,0 +1,5 @@
+[console_scripts]
+chassis_controller = my_package_py.chassis_speed_controller:main
+keyboard_control = my_package_py.keyboard_control:main
+motor_controller = my_package_py.motor_controller_node:main
+

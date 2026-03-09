@@ -1,0 +1,1 @@
+/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rc_keyboard_control/launch/keyboard_control.launch.py

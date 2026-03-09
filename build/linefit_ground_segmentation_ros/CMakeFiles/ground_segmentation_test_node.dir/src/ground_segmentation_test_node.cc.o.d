@@ -1,5 +1,5 @@
 CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o: \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_test_node.cc \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_test_node.cc \
  /usr/include/stdc-predef.h /usr/include/pcl-1.12/pcl/io/ply_io.h \
  /usr/include/pcl-1.12/pcl/memory.h \
  /usr/include/pcl-1.12/pcl/type_traits.h \
@@ -1842,11 +1842,11 @@ CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.c
  /usr/include/sensor_msgs/PointCloud2.h \
  /usr/include/ros/message_operations.h /usr/include/std_msgs/Header.h \
  /usr/include/sensor_msgs/PointField.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation/include/ground_segmentation/segment.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation/include/ground_segmentation/bin.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h \
- /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation/include/ground_segmentation/segment.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation/include/ground_segmentation/bin.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h \
+ /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h \
  /usr/include/pcl-1.12/pcl/visualization/pcl_visualizer.h \
  /usr/include/pcl-1.12/pcl/correspondence.h \
  /usr/include/pcl-1.12/pcl/pcl_base.h \

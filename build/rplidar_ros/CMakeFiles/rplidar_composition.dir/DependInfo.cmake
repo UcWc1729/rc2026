@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/timer.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/thread.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/rplidar_driver.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_crc.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o.d"
-  "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/src/rplidar_node.cpp" "CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/timer.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/thread.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/rplidar_driver.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_crc.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o.d"
+  "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/src/rplidar_node.cpp" "CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o" "gcc" "CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2
 
 # Utility rule file for livox_interfaces2.
 
@@ -66,8 +66,8 @@ include CMakeFiles/livox_interfaces2.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/livox_interfaces2.dir/progress.make
 
-CMakeFiles/livox_interfaces2: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/msg/CustomPoint.msg
-CMakeFiles/livox_interfaces2: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2/msg/CustomMsg.msg
+CMakeFiles/livox_interfaces2: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/msg/CustomPoint.msg
+CMakeFiles/livox_interfaces2: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2/msg/CustomMsg.msg
 CMakeFiles/livox_interfaces2: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/livox_interfaces2: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/livox_interfaces2: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -114,6 +114,6 @@ CMakeFiles/livox_interfaces2.dir/clean:
 .PHONY : CMakeFiles/livox_interfaces2.dir/clean
 
 CMakeFiles/livox_interfaces2.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/livox_ros_driver2/CMakeFiles/livox_interfaces2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2 /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/CMakeFiles/livox_interfaces2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/livox_interfaces2.dir/depend
 

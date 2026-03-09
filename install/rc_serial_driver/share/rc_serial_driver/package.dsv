@@ -1,8 +1,9 @@
-source;share/rc_serial_driver/hook/cmake_prefix_path.ps1
-source;share/rc_serial_driver/hook/cmake_prefix_path.dsv
-source;share/rc_serial_driver/hook/cmake_prefix_path.sh
-source;share/rc_serial_driver/local_setup.bash
-source;share/rc_serial_driver/local_setup.dsv
-source;share/rc_serial_driver/local_setup.ps1
-source;share/rc_serial_driver/local_setup.sh
-source;share/rc_serial_driver/local_setup.zsh
+source;share/rc_serial_driver/hook/pythonpath.ps1
+source;share/rc_serial_driver/hook/pythonpath.dsv
+source;share/rc_serial_driver/hook/pythonpath.sh
+source;share/rc_serial_driver/hook/ament_prefix_path.ps1
+source;share/rc_serial_driver/hook/ament_prefix_path.dsv
+source;share/rc_serial_driver/hook/ament_prefix_path.sh
+source;../../build/rc_serial_driver/share/rc_serial_driver/hook/pythonpath_develop.ps1
+source;../../build/rc_serial_driver/share/rc_serial_driver/hook/pythonpath_develop.dsv
+source;../../build/rc_serial_driver/share/rc_serial_driver/hook/pythonpath_develop.sh

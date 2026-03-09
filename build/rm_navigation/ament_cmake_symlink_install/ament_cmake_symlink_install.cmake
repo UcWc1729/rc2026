@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/rm_navigation/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/rm_navigation/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/rm_navigation/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/rm_navigation/${destination}")
+      set(destination "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rm_navigation/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,58 +311,58 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "DESTINATION" "lib/rm_navigation")
-include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "params" "DESTINATION" "share/rm_navigation")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" DIRECTORY "params" "DESTINATION" "share/rm_navigation")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" DIRECTORY "params" "DESTINATION" "share/rm_navigation")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/rm_navigation")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" DIRECTORY "launch" "DESTINATION" "share/rm_navigation")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" DIRECTORY "launch" "DESTINATION" "share/rm_navigation")
 
 # install(DIRECTORY "map" "DESTINATION" "share/rm_navigation")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" DIRECTORY "map" "DESTINATION" "share/rm_navigation")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" DIRECTORY "map" "DESTINATION" "share/rm_navigation")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rm_navigation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rm_navigation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rm_navigation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rm_navigation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rm_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rm_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rm_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rm_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rm_navigation/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rm_navigation/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rm_navigation/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rm_navigation/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rm_navigation/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rm_navigation/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rm_navigation/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rm_navigation/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rm_navigation/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rm_navigation/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rm_navigation/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rm_navigation/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rm_navigation/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rm_navigation/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rm_navigation")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rm_navigation")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rm_navigation")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rm_navigation")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rm_navigation")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rm_navigation")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rm_navigation")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rm_navigation")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rm_navigation")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rm_navigation")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rm_navigation")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rm_navigation")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rm_navigation")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rm_navigation")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rm_navigation")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rm_navigation")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rm_navigation")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rm_navigation")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rm_navigation")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rm_navigation")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_index/share/ament_index/resource_index/packages/rm_navigation" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_index/share/ament_index/resource_index/packages/rm_navigation" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_index/share/ament_index/resource_index/packages/rm_navigation" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_index/share/ament_index/resource_index/packages/rm_navigation" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_core/rm_navigationConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_core/rm_navigationConfig-version.cmake" "DESTINATION" "share/rm_navigation/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_core/rm_navigationConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rm_navigation/ament_cmake_core/rm_navigationConfig-version.cmake" "DESTINATION" "share/rm_navigation/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_core/rm_navigationConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_core/rm_navigationConfig-version.cmake" "DESTINATION" "share/rm_navigation/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_core/rm_navigationConfig.cmake" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rm_navigation/ament_cmake_core/rm_navigationConfig-version.cmake" "DESTINATION" "share/rm_navigation/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation/package.xml" "DESTINATION" "share/rm_navigation")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_navigation/package.xml" "DESTINATION" "share/rm_navigation")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation/package.xml" "DESTINATION" "share/rm_navigation")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_navigation/package.xml" "DESTINATION" "share/rm_navigation")

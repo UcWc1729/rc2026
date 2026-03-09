@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/icp_localization_ros2/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/icp_localization_ros2/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/icp_localization_ros2/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/icp_localization_ros2/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/icp_localization_ros2/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/icp_localization_ros2/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/install/icp_localization_ros2/${destination}")
+      set(destination "/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/icp_localization_ros2/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,64 +311,64 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "include/" "DESTINATION" "include")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" DIRECTORY "include/" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" DIRECTORY "include/" "DESTINATION" "include")
 
 # install("TARGETS" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "icp_localization" "DESTINATION" "lib/icp_localization_ros2")
-include("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/icp_localization_ros2")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" DIRECTORY "launch" "DESTINATION" "share/icp_localization_ros2")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" DIRECTORY "launch" "DESTINATION" "share/icp_localization_ros2")
 
 # install(DIRECTORY "config" "DESTINATION" "share/icp_localization_ros2")
-ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" DIRECTORY "config" "DESTINATION" "share/icp_localization_ros2")
+ament_cmake_symlink_install_directory("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" DIRECTORY "config" "DESTINATION" "share/icp_localization_ros2")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/icp_localization_ros2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/icp_localization_ros2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/icp_localization_ros2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/icp_localization_ros2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/icp_localization_ros2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/icp_localization_ros2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/icp_localization_ros2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/icp_localization_ros2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/icp_localization_ros2/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/icp_localization_ros2/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/icp_localization_ros2/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/icp_localization_ros2/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/icp_localization_ros2/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/icp_localization_ros2/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/icp_localization_ros2/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/icp_localization_ros2/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/icp_localization_ros2/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/icp_localization_ros2/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/icp_localization_ros2/environment")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/icp_localization_ros2/environment")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/icp_localization_ros2/environment")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/icp_localization_ros2/environment")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/icp_localization_ros2")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/icp_localization_ros2")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/icp_localization_ros2")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/icp_localization_ros2")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/icp_localization_ros2")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/icp_localization_ros2")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/icp_localization_ros2")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/icp_localization_ros2")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/icp_localization_ros2")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/icp_localization_ros2")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/icp_localization_ros2")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/icp_localization_ros2")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/icp_localization_ros2")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/icp_localization_ros2")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/icp_localization_ros2")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/icp_localization_ros2")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/icp_localization_ros2")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/icp_localization_ros2")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/icp_localization_ros2")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/icp_localization_ros2")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_index/share/ament_index/resource_index/packages/icp_localization_ros2" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_index/share/ament_index/resource_index/packages/icp_localization_ros2" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_index/share/ament_index/resource_index/packages/icp_localization_ros2" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_index/share/ament_index/resource_index/packages/icp_localization_ros2" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/icp_localization_ros2/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/icp_localization_ros2/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/icp_localization_ros2/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/icp_localization_ros2/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/icp_localization_ros2/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/icp_localization_ros2/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/icp_localization_ros2/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/icp_localization_ros2/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_core/icp_localization_ros2Config.cmake" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_core/icp_localization_ros2Config-version.cmake" "DESTINATION" "share/icp_localization_ros2/cmake")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_core/icp_localization_ros2Config.cmake" "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/icp_localization_ros2/ament_cmake_core/icp_localization_ros2Config-version.cmake" "DESTINATION" "share/icp_localization_ros2/cmake")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_core/icp_localization_ros2Config.cmake" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_core/icp_localization_ros2Config-version.cmake" "DESTINATION" "share/icp_localization_ros2/cmake")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_core/icp_localization_ros2Config.cmake" "/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/icp_localization_ros2/ament_cmake_core/icp_localization_ros2Config-version.cmake" "DESTINATION" "share/icp_localization_ros2/cmake")
 
-# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2/package.xml" "DESTINATION" "share/icp_localization_ros2")
-ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/icp_localization_ros2/package.xml" "DESTINATION" "share/icp_localization_ros2")
+# install(FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2/package.xml" "DESTINATION" "share/icp_localization_ros2")
+ament_cmake_symlink_install_files("/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2" FILES "/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2/package.xml" "DESTINATION" "share/icp_localization_ros2")

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: rc-serial-driver
+Version: 0.0.0
+Summary: Serial driver for communication with lower computer (下位机串口驱动)
+Maintainer: fyt
+Maintainer-email: fyt@todo.todo
+License: Apache-2.0

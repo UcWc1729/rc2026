@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio
 
 # Utility rule file for fast_lio_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/fast_lio_uninstall.dir/compiler_depend.make
 include CMakeFiles/fast_lio_uninstall.dir/progress.make
 
 CMakeFiles/fast_lio_uninstall:
-	/usr/bin/cmake -P /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 fast_lio_uninstall: CMakeFiles/fast_lio_uninstall
 fast_lio_uninstall: CMakeFiles/fast_lio_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/fast_lio_uninstall.dir/clean:
 .PHONY : CMakeFiles/fast_lio_uninstall.dir/clean
 
 CMakeFiles/fast_lio_uninstall.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/fast_lio/CMakeFiles/fast_lio_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/CMakeFiles/fast_lio_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fast_lio_uninstall.dir/depend
 

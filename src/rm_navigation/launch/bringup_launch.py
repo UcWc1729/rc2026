@@ -120,7 +120,8 @@ def generate_launch_description():
         package='tf2_ros',
         executable='static_transform_publisher',
         name='livox_base_link_static_tf',
-        arguments=['-0.105', '0', '-0.46', '0', '0', '0', 'livox_frame', 'base_link'],
+        # 平移改为 (0, 0, 0)，即 livox_frame 与 base_link 共点
+        arguments=['0', '0', '0', '0', '0', '0', 'livox_frame', 'base_link'],
         output='log',
     )
 
@@ -151,6 +152,8 @@ def generate_launch_description():
         #                       'use_respawn': use_respawn,
         #                       'params_file': params_file}.items()),
 
+        # Nav2 的本地化部分：只启动 map_server（见 localization_launch.py 中 amcl 已被注释），
+        # 提供 2D 栅格地图给 costmap 使用
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(os.path.join(launch_dir,
                                                        'localization_launch.py')),
@@ -163,7 +166,15 @@ def generate_launch_description():
                               'use_composition': use_composition,
                               'use_respawn': use_respawn,
                               'container_name': 'nav2_container'}.items()),
- 
+
+        # ICP 定位：使用 icp_localization_ros2，根据 LIO 点云与 3D/2D 地图做 map→odom 对齐
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(os.path.join(
+                get_package_share_directory('icp_localization_ros2'),
+                'launch', 'bringup.launch.py')),
+            condition=IfCondition(PythonExpression(['not ', slam])),
+        ),
+
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(os.path.join(launch_dir, 'navigation_launch.py')),
             launch_arguments={'namespace': namespace,

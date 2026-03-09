@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: rc-keyboard-control
+Version: 0.0.0
+Summary: Keyboard control node for robot chassis
+Maintainer: fyt
+Maintainer-email: fyt@todo.todo
+License: Apache-2.0

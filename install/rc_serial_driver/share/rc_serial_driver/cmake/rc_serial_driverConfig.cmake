@@ -1,1 +1,0 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rc_serial_driver/ament_cmake_core/rc_serial_driverConfig.cmake

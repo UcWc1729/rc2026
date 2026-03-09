@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros
+CMAKE_SOURCE_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros
+CMAKE_BINARY_DIR = /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rplidar_composition.dir/depend.make
@@ -70,158 +70,158 @@ include CMakeFiles/rplidar_composition.dir/progress.make
 include CMakeFiles/rplidar_composition.dir/flags.make
 
 CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o: CMakeFiles/rplidar_composition.dir/flags.make
-CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/src/rplidar_node.cpp
+CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/src/rplidar_node.cpp
 CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o: CMakeFiles/rplidar_composition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o -MF CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o.d -o CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/src/rplidar_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o -MF CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o.d -o CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/src/rplidar_node.cpp
 
 CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/src/rplidar_node.cpp > CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/src/rplidar_node.cpp > CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.i
 
 CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/src/rplidar_node.cpp -o CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/src/rplidar_node.cpp -o CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.s
 
 CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o: CMakeFiles/rplidar_composition.dir/flags.make
-CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
+CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
 CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o: CMakeFiles/rplidar_composition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
 
 CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.i
 
 CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.s
 
 CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o: CMakeFiles/rplidar_composition.dir/flags.make
-CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
+CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
 CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o: CMakeFiles/rplidar_composition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
 
 CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.i
 
 CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.s
 
 CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o: CMakeFiles/rplidar_composition.dir/flags.make
-CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/timer.cpp
+CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/timer.cpp
 CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o: CMakeFiles/rplidar_composition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/timer.cpp
 
 CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/timer.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/timer.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.i
 
 CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/timer.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/arch/linux/timer.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.s
 
 CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o: CMakeFiles/rplidar_composition.dir/flags.make
-CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/thread.cpp
+CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/thread.cpp
 CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o: CMakeFiles/rplidar_composition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/thread.cpp
 
 CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/thread.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/thread.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.i
 
 CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/hal/thread.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/hal/thread.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.s
 
 CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o: CMakeFiles/rplidar_composition.dir/flags.make
-CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/rplidar_driver.cpp
+CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/rplidar_driver.cpp
 CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o: CMakeFiles/rplidar_composition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/rplidar_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/rplidar_driver.cpp
 
 CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/rplidar_driver.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/rplidar_driver.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.i
 
 CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/rplidar_driver.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/rplidar_driver.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.s
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o: CMakeFiles/rplidar_composition.dir/flags.make
-CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_crc.cpp
+CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_crc.cpp
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o: CMakeFiles/rplidar_composition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_crc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_crc.cpp
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_crc.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_crc.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.i
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_crc.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_crc.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.s
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o: CMakeFiles/rplidar_composition.dir/flags.make
-CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp
+CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o: CMakeFiles/rplidar_composition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.i
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.s
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o: CMakeFiles/rplidar_composition.dir/flags.make
-CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp
+CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o: CMakeFiles/rplidar_composition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.i
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.s
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o: CMakeFiles/rplidar_composition.dir/flags.make
-CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp
+CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o: CMakeFiles/rplidar_composition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.i
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.s
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o: CMakeFiles/rplidar_composition.dir/flags.make
-CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp
+CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o: /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o: CMakeFiles/rplidar_composition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o -MF CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o.d -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o -c /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp > CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.i
 
 CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp -o CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.s
 
 # Object files for target rplidar_composition
 rplidar_composition_OBJECTS = \
@@ -339,7 +339,7 @@ rplidar_composition: /opt/ros/humble/lib/librcpputils.so
 rplidar_composition: /opt/ros/humble/lib/librosidl_runtime_c.so
 rplidar_composition: /opt/ros/humble/lib/librcutils.so
 rplidar_composition: CMakeFiles/rplidar_composition.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable rplidar_composition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable rplidar_composition"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidar_composition.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -351,6 +351,6 @@ CMakeFiles/rplidar_composition.dir/clean:
 .PHONY : CMakeFiles/rplidar_composition.dir/clean
 
 CMakeFiles/rplidar_composition.dir/depend:
-	cd /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_sensors/rplidar_ros /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros /home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/build/rplidar_ros/CMakeFiles/rplidar_composition.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros /home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/CMakeFiles/rplidar_composition.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rplidar_composition.dir/depend
 

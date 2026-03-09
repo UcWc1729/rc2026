@@ -1,1 +1,1 @@
-/home/ljhua/ROBOCON2026/lidar_test/CSU-RM-Sentry/src/rm_localization/fast_lio/msg/Pose6D.msg
+/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/fast_lio/msg/Pose6D.msg

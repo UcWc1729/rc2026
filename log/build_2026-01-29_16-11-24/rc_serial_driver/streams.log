@@ -1,0 +1,17 @@
+[1.021s] Invoking command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rc_serial_driver': PYTHONPATH=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rc_serial_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_serial_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rc_serial_driver/build --no-deps symlink_data
+[1.276s] running develop
+[1.424s] running egg_info
+[1.433s] writing rc_serial_driver.egg-info/PKG-INFO
+[1.433s] writing dependency_links to rc_serial_driver.egg-info/dependency_links.txt
+[1.433s] writing entry points to rc_serial_driver.egg-info/entry_points.txt
+[1.433s] writing requirements to rc_serial_driver.egg-info/requires.txt
+[1.433s] writing top-level names to rc_serial_driver.egg-info/top_level.txt
+[1.451s] reading manifest file 'rc_serial_driver.egg-info/SOURCES.txt'
+[1.452s] writing manifest file 'rc_serial_driver.egg-info/SOURCES.txt'
+[1.462s] running build_ext
+[1.462s] Creating /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_serial_driver/lib/python3.10/site-packages/rc-serial-driver.egg-link (link to .)
+[1.462s] Installing serial_driver_node script to /home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_serial_driver/lib/rc_serial_driver
+[1.462s] 
+[1.463s] Installed /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rc_serial_driver
+[1.463s] running symlink_data
+[1.493s] Invoked command in '/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rc_serial_driver' returned '0': PYTHONPATH=/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rc_serial_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ljhua/ROBOCON2026/lidar_test/rc2026/install/rc_serial_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rc_serial_driver/build --no-deps symlink_data
