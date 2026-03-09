@@ -1,1 +1,0 @@
-/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/fast_lio/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp

@@ -1,1 +1,0 @@
-/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2/__init__.py

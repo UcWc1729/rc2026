@@ -1,1 +1,0 @@
-/home/ljhua/ROBOCON2026/lidar_test/rc2026/build/rplidar_ros/ament_cmake_core/rplidar_rosConfig-version.cmake

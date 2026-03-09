@@ -1,1 +1,0 @@
-/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_localization/icp_localization_ros2/launch/bringup.launch.py

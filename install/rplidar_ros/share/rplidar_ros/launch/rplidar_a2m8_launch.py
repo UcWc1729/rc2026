@@ -1,1 +1,0 @@
-/home/ljhua/ROBOCON2026/lidar_test/rc2026/src/rm_sensors/rplidar_ros/launch/rplidar_a2m8_launch.py
